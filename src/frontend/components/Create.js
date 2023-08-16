@@ -1,14 +1,12 @@
 import { useState } from "react";
 import { ethers } from "ethers";
 import { Row, Form, Button } from "react-bootstrap";
-import dotenv from "dotenv";
-dotenv.config();
 
 import { Buffer } from "buffer";
 import { create as ipfsHttpClient } from "ipfs-http-client";
 
-const projectId = process.env.INFURA_PRJ_ID;
-const projectSecret = process.env.INFURA_PRJ_KEY;
+const projectId = "your infura's project_id";
+const projectSecret = "your infura's project_key";
 const auth = `Basic ${Buffer.from(`${projectId}:${projectSecret}`).toString(
   "base64"
 )}`;
