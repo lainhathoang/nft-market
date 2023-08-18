@@ -3,10 +3,13 @@
 Welcome to the documentation for the NFT Market project! This repository is dedicated to creating a decentralized NFT (Non-Fungible Token) marketplace. 
 
 ## Table of contents
+- Demo
 - Introduction
 - Prerequisites
 - Installation
-- Demo
+
+### Demo
+[NFT Market Video Demo](https://youtu.be/IJY2syOw6Nk)
 
 ### Introduction
 A small project about NFT Market aims to create a decentralized platform for buying and selling NFTs. 
@@ -39,5 +42,3 @@ yarn run deploy
 ```
 yarn run start
 ```
-### Demo
-[NFT Market Video Demo](https://youtu.be/IJY2syOw6Nk)
